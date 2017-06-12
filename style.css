@@ -8,22 +8,67 @@ html, body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	width: 100%;
 }
 body{
 	background: #D3D3D3;
 }
-.cubo{
+/*.cubo{
 	width: 80px;
-}
-img{
-	width: 100px;
-}
+}*/
 main{
 	display: flex;
 	flex-wrap: wrap;
+	width: 75%;
 }
-section{
+section{	
 	padding: 15px;
 	margin: 10px;
 	background:#fff;
 }
+.sec1{
+	width: 65%;
+}
+.sec2{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.sec2 div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.sec2 div p{
+	font-size:13px;
+	text-align: center;
+}
+.sec3{
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.sec3 p:last-child{
+	align-self: flex-end;
+}
+.sec4{
+	width: 65%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sec4 h2{
+	font-size: 21px;
+}
+.sec5{
+	width: 47%;
+}
+.sec6{
+	width: 37%;
+}
+.sec7{
+	width: 13%
+}
+div
