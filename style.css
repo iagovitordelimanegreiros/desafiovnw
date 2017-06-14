@@ -49,10 +49,14 @@ section{
 	width: 30%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-end;
+	align-content: flex-start;
+}
+.sec3 img {
+	width:45%;
+	margin: 2%;
 }
 .sec3 p:last-child{
-	align-self: flex-end;
+		
 }
 .sec4{
 	width: 65%;
@@ -69,6 +73,7 @@ section{
 	width: 37%;
 }
 .sec7{
-	width: 13%
+	width: 13%;
+
+
 }
-div
